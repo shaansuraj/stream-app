@@ -1,0 +1,39 @@
+{
+  "name": "streaming-app",
+  "version": "1.0.0",
+  "description": "a sample streaming app with live chat as divine talk assesment",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src, test}/**/*.ts\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "dependencies": {
+    "@nestjs/config": "^3.2.3",
+    "@nestjs/core": "^10.3.10",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/platform-express": "^10.3.10",
+    "@nestjs/platform-socket.io": "^10.3.10",
+    "@nestjs/typeorm": "^10.0.2",
+    "@nestjs/websockets": "^10.3.10",
+    "@types/node": "^22.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.5.4",
+    "winston": "^3.13.1"
+  }
+}
